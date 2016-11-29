@@ -89,7 +89,7 @@ body{
 
 /*about section*/
 
-#about,#skills,#project{
+#about,#skills,#project,#welcome{
     height: 100vh;
     width: 100vw;
 }
