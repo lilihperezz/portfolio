@@ -73,8 +73,8 @@ body{
   to { transform: none; }
   }
 #banner{
-  width: 100%;
-  height:  600px;
+  width: 100vw;
+  height:  100vh;
   margin: 0px auto 0px;
   background-color: #000;
   background-image: url(../img/planet1.png), url(../img/start1.png);
