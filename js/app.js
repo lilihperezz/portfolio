@@ -4,8 +4,8 @@ $( document ).ready(function(){
   $('.collapsible').collapsible();
   $('.materialboxed').materialbox();
   $(".tlt").textillate({
-	 in:{effect:'bounce',delay:10},
-	// out:{effect:'swing',shuffle:true,delay:1},
+	 in:{effect:'flipInX',delay:90},
+	out:{effect:'swing',shuffle:true,delay:1},
 	loop:true
 	});
 
@@ -24,18 +24,4 @@ $( document ).ready(function(){
         } );
       } );
     });
-   $( function() {
-      $( '.type-texto' ).each( function() {
-        var items = $( this ).attr( 'title' ) + ';' + $( this ).text();
-        $( this ).empty().attr( 'title', '' ).teletype( {
-          text: $.map( items.split( ';' ), $.trim ),
-          typeDelay: 10,
-          backDelay: 30,
-          cursor: '_',
-          delay: 4000,
-          preserve: false,
-          loop: 0
-        } );
-      } );
-    });  
 });

@@ -112,7 +112,7 @@ body{
 }
 .text-aboutme{
   font-size: 17px;
-  word-wrap: break-word;
+  text-align: justify;
 
 }
 .collapsible-header a:hover{
