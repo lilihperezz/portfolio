@@ -64,6 +64,7 @@ nav a{
 /*parallax*/
 body{
   margin: 0px;
+  overflow-x: hidden;
 }
 .animate{
   animation: latidos 4s infinite;}
@@ -191,34 +192,32 @@ a {
   height: 100%;
 }
 /*footer*/
-footer.page-footer {
-    margin-top: 0px;
+#contact{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     background-image: url("../img/start1.png");
+    width: 100vw;
+    height: 18%;
 }
 
-.first{
-  height: 50px;
-}
-.contact{
+.text-contacto{
   text-transform: uppercase;
   font-family: 'Ceviche One', cursive;
   font-size: 4rem;
+  color:orange;
 }
 /*icono*/
 
-
 i.right {
-    margin-left: 15px;
-    color: black;
+  margin-left: 15px;
+  color: black;
 }
 
 .curso{
   color: black;
   text-align: center;
   font-size: 2rem;
-    font-weight: bold;
+  font-weight: bold;
 }
 .align{
   text-align: center;
