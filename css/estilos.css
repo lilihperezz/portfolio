@@ -32,16 +32,21 @@ nav a{
     /*text-shadow: 0px 0px 14px orange;*/
 
   }
-  .descripcion{
+  .type-descripcion{
     font-size: 1.5rem;
     color: white;
 
   }
-.fa-laptop,.tex-icon{
+.conten-icons{
   position: absolute;
-  top: 80%;
-  left:89%;
+  right: 7%;
+  bottom: 7%;
+  }
+.tex-icon,.fa-laptop{
   color:#fff;
+}
+.fa-laptop{
+  margin-left: 23%;
 }
 .fa-heart{
   color:red;
@@ -207,7 +212,6 @@ a {
   color:orange;
 }
 /*icono*/
-
 i.right {
   margin-left: 15px;
   color: black;
@@ -221,4 +225,25 @@ i.right {
 }
 .align{
   text-align: center;
+}
+
+@media all and (max-width : 450px){
+  .txt-bienvenida {
+    top: 22rem;
+    left: 1.5rem;
+  }
+  .text-name {
+    font-size: 5.6rem;
+    width: 100%;
+    left: 2rem;
+  }
+  .type-descripcion{
+    font-size: 1.3rem;
+  }
+  .conten-icons,.responsive-img{
+    display: none;
+  }
+  .collapsible popout{
+    margin: auto;
+  }
 }
