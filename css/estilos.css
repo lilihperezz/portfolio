@@ -255,14 +255,14 @@ i.right {
     line-height: 0.7;
   }
   .type-descripcion{
-    font-size: 1.5rem;
-    line-height: 1.2;
+    font-size: 1rem;
   }
  .desplegable,.responsive-perfil{
     display: none;
   }
-  .subtitulo,.subtitulo-skills{
-    font-size: 3rem;
+  .subtitulo{
+    font-size: 2.5rem;
+     padding-top: 20%;
     
   }
   .subtitulo-skills{
@@ -271,6 +271,7 @@ i.right {
   }
   .txt-curso{
     font-size: 1rem;
+    color: #fff;
   }
   .text-aboutme,{
     font-size: 1rem;
